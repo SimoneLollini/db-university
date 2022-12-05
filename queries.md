@@ -21,11 +21,11 @@ Query Todo:
     ```
 - Selezionare tutti i corsi di laurea magistrale (38)
     ```sql
-
+    SELECT * FROM `degrees` WHERE level='magistrale'; 
     ```
 - Da quanti dipartimenti è composta l'università? (12)
     ```sql
-
+    SELECT COUNT(id) AS departments_count FROM `departments`; 
     ```
 - Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
     ```sql
